@@ -1,0 +1,35 @@
+
+# Process all the JPL DE441 ascii files and convert to csv files for each body
+
+process_de441_data <- function()
+{
+  load_de441_ascii_data("ascm02000.441")
+  load_de441_ascii_data("ascm03000.441")
+  load_de441_ascii_data("ascm04000.441")
+  load_de441_ascii_data("ascm05000.441")
+  load_de441_ascii_data("ascm06000.441")
+  load_de441_ascii_data("ascm07000.441")
+  load_de441_ascii_data("ascm08000.441")
+  load_de441_ascii_data("ascm09000.441")
+  load_de441_ascii_data("ascm10000.441")
+  load_de441_ascii_data("ascm11000.441")
+  load_de441_ascii_data("ascm12000.441")
+  load_de441_ascii_data("ascm13000.441")
+  load_de441_ascii_data("ascp01000.441")
+  load_de441_ascii_data("ascp02000.441")
+  load_de441_ascii_data("ascp03000.441")
+  load_de441_ascii_data("ascp04000.441")
+  load_de441_ascii_data("ascp05000.441")
+  load_de441_ascii_data("ascp06000.441")
+  load_de441_ascii_data("ascp07000.441")
+  load_de441_ascii_data("ascp08000.441")
+  load_de441_ascii_data("ascp09000.441")
+  load_de441_ascii_data("ascp10000.441")
+  load_de441_ascii_data("ascp11000.441")
+  load_de441_ascii_data("ascp12000.441")
+  load_de441_ascii_data("ascp13000.441")
+  load_de441_ascii_data("ascp14000.441")
+  load_de441_ascii_data("ascp15000.441")
+  load_de441_ascii_data("ascp16000.441")
+}
+

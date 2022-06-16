@@ -14,7 +14,6 @@ load_de441_ascii_data <- function(filename)
   # k indexes the result vector
   # i indexs the data blocks in the file
   # j indexes the rows inside each data block
-  # 3892176
   k <- as.integer(1)
   for (i in seq(from = 2, to = 3892176, by = 341)){
     for (j in seq(from = 0, to = 339, by = 1)){
@@ -39,7 +38,6 @@ load_de441_ascii_data <- function(filename)
       tmpstr1 <- as.numeric(tmpstr1)
       vect[k] <- tmpstr1
       k <- k + 1L
-      print(k)
     }
   }
   

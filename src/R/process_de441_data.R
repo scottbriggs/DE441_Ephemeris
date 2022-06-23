@@ -3,6 +3,7 @@
 
 process_de441_data <- function()
 {
+  load_de441_ascii_data("ascm01000.441")
   load_de441_ascii_data("ascm02000.441")
   load_de441_ascii_data("ascm03000.441")
   load_de441_ascii_data("ascm04000.441")
@@ -15,6 +16,7 @@ process_de441_data <- function()
   load_de441_ascii_data("ascm11000.441")
   load_de441_ascii_data("ascm12000.441")
   load_de441_ascii_data("ascm13000.441")
+  load_de441_ascii_data("ascp00000.441")
   load_de441_ascii_data("ascp01000.441")
   load_de441_ascii_data("ascp02000.441")
   load_de441_ascii_data("ascp03000.441")

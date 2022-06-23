@@ -15,3 +15,7 @@ source(here("src", "R", "create_moon_jd_list.R"))
 source(here("src", "R", "create_nutation_jd_list.R"))
 source(here("src", "R", "create_body_jd_list.R"))
 source(here("src", "R", "constants.R"))
+source(here("src", "R", "extract_body_data.R"))
+source(here("src", "R", "position_mercury_ssb.R"))
+source(here("src", "R", "position_venus_ssb.R"))
+       

@@ -19,5 +19,16 @@ source(here("src", "R", "extract_body_data.R"))
 source(here("src", "R", "position_mercury_ssb.R"))
 source(here("src", "R", "position_venus_ssb.R"))
 source(here("src", "R", "position_emb_ssb.R"))
+source(here("src", "R", "position_mars_ssb.R"))
+source(here("src", "R", "position_jupiter_ssb.R"))
+source(here("src", "R", "position_uranus_ssb.R"))
+source(here("src", "R", "position_neptune_ssb.R"))
+source(here("src", "R", "position_pluto_ssb.R"))
+source(here("src", "R", "position_sun_ssb.R"))
+source(here("src", "R", "position_moon_geo.R"))
+source(here("src", "R", "nutation_angles.R"))
+source(here("src", "R", "precession_matrix.R"))
+
+
 
        

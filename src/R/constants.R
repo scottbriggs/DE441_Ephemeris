@@ -4,10 +4,7 @@ PI <- 3.14159265358979
 PI2 <- 2*PI
 RAD2DEG <- PI/180 # Radians to degrees
 DEG2RAD <- 180/PI # Degrees to radians
-ARCSEC2RAD <- 3600*180/PI # Arcseconds to radians
-RAD2ARCSEC <- PI/180/3600 # Radians to arcseconds
-DEG2ARCSEC <- DEG2RAD*RAD2ARCSEC # Degrees to arcseconds
-ARCSEC2DEG <- ARCSEC2RAD*RAD2DEG # Arcseconds to degrees
+ARCSEC2RAD <- 4.848136811095359935899141E-6
 SEC2DAY <- 86400 # Seconds per Day
 
 # Astronomical Constants

@@ -26,6 +26,7 @@ source(here("src", "R", "position_neptune_ssb.R"))
 source(here("src", "R", "position_pluto_ssb.R"))
 source(here("src", "R", "position_sun_ssb.R"))
 source(here("src", "R", "position_moon_geo.R"))
+source(here("src", "R", "position_earth_ssb.R"))
 source(here("src", "R", "nutation_angles.R"))
 source(here("src", "R", "precession_matrix.R"))
 

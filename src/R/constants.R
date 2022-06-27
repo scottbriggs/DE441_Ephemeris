@@ -2,9 +2,11 @@
 # Mathematical Constants
 PI <- 3.14159265358979
 PI2 <- 2*PI
-RAD2DEG <- PI/180 # Radians to degrees
-DEG2RAD <- 180/PI # Degrees to radians
+RAD2DEG <- 180/PI # Radians to degrees
+DEG2RAD <- PI/180 # Degrees to radians
+RAD2HR <- 12/PI # Radians to hours
 ARCSEC2RAD <- 4.848136811095359935899141E-6
+RAD2ARCSEC <- 206264.79821012
 SEC2DAY <- 86400 # Seconds per Day
 
 # Astronomical Constants

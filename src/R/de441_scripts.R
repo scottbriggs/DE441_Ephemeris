@@ -29,7 +29,19 @@ source(here("src", "R", "position_moon_geo.R"))
 source(here("src", "R", "position_earth_ssb.R"))
 source(here("src", "R", "nutation_angles.R"))
 source(here("src", "R", "precession_matrix.R"))
-
+source(here("src", "R", "delta_t.R"))
+source(here("src", "R", "apparent_place_moon.R"))
+source(here("src", "R", "apparent_place_mercury.R"))
+source(here("src", "R", "apparent_place_venus.R"))
+source(here("src", "R", "apparent_place_mars.R"))
+source(here("src", "R", "apparent_place_jupiter.R"))
+source(here("src", "R", "apparent_place_saturn.R"))
+source(here("src", "R", "apparent_place_uranus.R"))
+source(here("src", "R", "apparent_place_neptune.R"))
+source(here("src", "R", "apparent_place_pluto.R"))
+source(here("src", "R", "conversions.R"))
+source(here("src", "R", "obliquity.R"))
+source(here("src", "R", "nutation_matrix.R"))
 
 
        

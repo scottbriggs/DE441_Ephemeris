@@ -17,10 +17,10 @@ extract_body_data <- function(body, jd_start)
                      "Sun" = "Sun.csv",
                      "Nutation" = "Nutation.csv")
   
-  df <- import(filename)
+  df <- import(here("data", "processed", filename))
   tmp <- subset(df, jd_start >= jd_begin & jd_start < jd_end)
   filename_body <- tmp$filename
-  df1 <- import(filename_body)
+  df1 <- import(here("data", "processed", filename_body))
   
   tmp1 <- subset(df1, jd_start >= Julian_Day_Start & jd_start < Julian_Day_End)
   return(tmp1)
